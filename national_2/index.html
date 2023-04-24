@@ -7,6 +7,8 @@
     <title>National Giography | cosmos</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js" integrity="sha512-AMl4wfwAmDM1lsQvVBBRHYENn1FR8cfOTpt8QVbb/P55mYOdahHD4LmHM1W55pNe3j/3od8ELzPf/8eNkkjISQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <header>
@@ -29,52 +31,87 @@
     </header>
     <main>
         <div class="container con1">
-            <h2>Wanna go to the cosmo?</h2>
+            <h2>Wanna go to the cosmos?</h2>
         </div>
         <div class="container con2">
             <div class="tab">
-                <a href="#"><p>new</p></a>
-                <a href="#"><p>new</p></a>
-                <a href="#"><p>new</p></a>
-                <a href="#"><p>new</p></a>
+                <a href="#"><p>you</p></a>
+                <a href="#"><p>CAN</p></a>
+                <a href="#"><p>GO</p></a>
+                <a href="#"><p>WITH US</p></a>
             </div>
             <div class="tab_contents">
-                <div class="contents1"></div>
-                <div class="contents2"></div>
-                <div class="contents3"></div>
-                <div class="contents4"></div>
+                <div class="contents1">
+                    <p class="what">In Cosmos 2</p>
+                </div>
+                <div class="contents2">
+                    <p class="what">a big history</p>
+                </div>
+                <div class="contents3">
+                    <p class="what">Carl Sagan's</p>
+                </div>
+                <div class="contents4">
+                    <p class="what">explore the lost world!</p>
+                </div>
             </div>
-            <div class="front_img"><img src="./images/astro.png" alt="우주인"></div>
         </div>
         <div class="container con3">
-            <div class="fixed_bg"></div>
+            <div class="fixed_bg">
+                <div class="front_img"><img src="./images/astro.png" alt="우주인"></div>
+                <div class="front_img2"><img src="./images/asrto2.png" alt="우주인"></div>
+            </div>
         </div>
         <div class="container con4">
-            <h2>something</h2>
-            <ul>
-                <li class="on">
-                    <button class="button">menu1</button>
-                    <p id="menu1" class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, tempora labore! Quae aliquid aperiam beatae repellat mollitia quis labore expedita molestiae voluptatem consequuntur sunt quasi optio fugit ullam, facere ipsa!</p>  
-                </li>
-                <li>
-                    <button class="button">menu2</button>
-                    <p id="menu2" class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat natus facere unde minus vitae, in nulla, quod cumque voluptates, perspiciatis dolorem ut animi hic explicabo totam cum sit dolores. Eveniet.</p>  
-                </li>
-                <li>
-                    <button class="button">menu3</button>
-                    <p id="menu3" class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quibusdam ab illo ea nostrum, commodi numquam. Dolorem laudantium veniam vel, eum corrupti, distinctio magnam minima expedita doloribus veritatis impedit fugit.</p>  
-                </li>
-                <li>
-                    <button class="button">menu4</button>
-                    <p id="menu4" class="content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi quaerat accusamus sit explicabo hic aperiam. Tempore incidunt qui aperiam totam consectetur commodi vel cum culpa ea tenetur! Ducimus, ea necessitatibus.</p>  
-                </li>
-            </ul>
+            <h2>ABOUT COSMOS</h2>
+            <div class="container_aco">
+                <section>
+                    <div class="acodian active">
+                        <div class="aco_name">
+                            a ladder to the stars
+                        </div>
+                        <div class="aco_contents">
+                            <p>The adventure begins into the history of billions of years of life evolution. It is a story about a change in the way of life that has radically changed human existence,</p>
+                            <p>and the lives of those who have found God in the products of nature, opening the way to the stars.</p>
+                        </div>
+                    </div>
+                    <div class="acodian">
+                        <div class="aco_name">
+                            a habitable area
+                        </div>
+                        <div class="aco_contents">
+                            <p>When the Earth no longer comes to us as a moment rather than a home,</p>
+                            <p>it tells the story of our ancestors who have emerged as a long-term vision for our future, predicting the possibility of someday living in another world.</p>
+                        </div>
+                    </div>
+                    <div class="acodian">
+                        <div class="aco_name">
+                            City of Lost Life
+                        </div>
+                        <div class="aco_contents">
+                            <p>Let's take a look at the behind-the-scenes story of a man</p>
+                            <p>who discovered clues about the beginning of life on Earth.</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
         </div>
     </main>
     <footer>
-        <h1><a href="#"><img src="./images/logo.png" alt="내셔널 지오그래픽"></a></h1>
-        <p></p>
-        <p></p>
+        <div class="top">
+            <h1><a href="#"><img src="./images/logo.png" alt="내셔널 지오그래픽"></a></h1>
+            <div class="left">
+                <p>Follow Us</p>
+                <p>twich</p>
+                <p>instagram</p>
+                <p>youtube</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p>개인정보 취급방침</p>
+            <p>© National Geographic Partners LLC. <br>All rights reserved.<br> NATIONAL GEOGRAPHIC and Yellow Border Design are trademarks of National Geographic Society, used under license.</p>
+        </div>
     </footer>
+
+    <script src="./index.js"></script>
 </body>
 </html>
