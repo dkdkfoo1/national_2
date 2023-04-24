@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&family=Poltawski+Nowy:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+* {box-sizing:border-box;}
+html,body,h1,h2,h3,h4,h5,h6,
+p,ul,ol,li,blockquote,dl,dt,dd,address, video,
+strong, em, del, sup, sub,s,q,code,img,a
+table,tr,th,td,thead,tbody,tfoot,
+form,fieldset,legend,label,input,textarea,option,select,button
+header,main,footer,article,section,aside,nav,figure,figcaption
+div,span {
+    font-family:'NoTo Sans KR',"Font Awesome 5 Free","Font Awesome 5 Brands";
+    margin:0; padding:0;
+    font-size:1.0rem;
+    font-weight:normal;
+    font-style:normal;
+    line-height:1.0;
+    list-style:none;
+}
+a {text-decoration:none; color:#000}
+table,tr,th,td {border-collapse:collapse;}
+button {cursor:pointer; border:none; background: none;}
+fieldset {border: 0;}
+legend {display: none;}
+.skip {display:none;}
+.awesome::after,
+.awesome::before {font-weight: 600;}

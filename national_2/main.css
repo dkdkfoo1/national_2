@@ -1,0 +1,106 @@
+/* 
+font-family: 'Castoro Titling', cursive;
+font-family: 'Noto Serif KR', serif;
+font-family: 'Poltawski Nowy', serif;
+ */
+
+.contents2, .contents3, .contents4 {display: none;}
+/* 일단 안보이게 하는 부분 */
+
+header {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+header h1 {}
+header h1 a {width: 150px; display: inline-block;}
+header h1 a img {width: 100%;}
+header .nav {
+    display: flex;
+    font-family: 'Castoro Titling', cursive;
+    align-items: center; 
+}
+header .nav a {padding: 0 20px; color: #fff;}
+header .nav .search {width: 80px;}
+header .nav .search img {width: 100%;}
+header .nav a span {
+    content:''; display: block; background:#fff; font-weight: 600; 
+    width: 50px; height: 5px; margin: 5px 0;
+}
+header .nav a span:nth-child(1) {width: 30px;}
+header .nav a span:nth-child(2) {}
+header .nav a span:nth-child(3) {}
+header .nav a span:nth-child(4) {width: 30px;}
+/* 헤더 끝 */
+main {}
+main .container {height: 100vh;}
+/* 메인 공통 */
+main .con1 {}
+main .con1 h2 {
+    text-align: center; font-family: 'Castoro Titling', cursive;
+    font-size: 5rem;
+    line-height: 100vh;
+}
+/* 메인1영역 끝 */
+main .con2 {}
+main .con2 .tab {display: flex; justify-content: center; }
+main .con2 .tab p {
+    font-family: 'Castoro Titling', cursive;
+    font-size: 1.8rem;
+    padding: 0 15px;
+}
+main .con2 .tab_contents {width:1200px; height: 798px; margin: 0 auto;}
+main .con2 .tab_contents .contents1 {background-image: url(./images/bg1.jpg);}
+main .con2 .tab_contents .contents2 {background-image: url(./images/bg2.jpg);}
+main .con2 .tab_contents .contents3 {background-image: url(./images/bg3.jpg);}
+main .con2 .tab_contents .contents4 {background-image: url(./images/bg4.jpg);}
+main .con2 .tab_contents div {background-position: center; background-size: cover; height: 100%;}
+main .con2 .front_img {width: 700px; position: absolute; left: 0.5%; top: 139%;}
+main .con2 .front_img img {width: 100%;}
+/* 메인2영역 끝 */
+main .con3 {height: 100vh;}
+main .con3 .fixed_bg {
+    background: url(./images/bg4.jpg); background-position: center;
+    background-size: cover; height: 100vh;
+    background-attachment: fixed;
+}
+/* 메인3영역 끝 */
+main .con4 {}
+main .con4 h2 {}
+main .con4 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    width: 100%;
+    list-style: none;
+}
+main .con4 ul li {}
+main .con4 ul .on {}
+main .con4 ul .on button {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    background-color: #ddd;
+    border: 0;
+    cursor: pointer;
+}
+main .con4 ul .on .content {
+    display: none;
+    margin: 0;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    display: block;
+}
+/* 메인4영역 끝 */
+footer {background: #000; height: 300px;}
+footer h1 {}
+footer h1 a {width: 100px; display: block;}
+footer h1 a img {width: 100%;}
+footer p {}
